@@ -28,7 +28,7 @@ function FlavorBasedTuneCurration(props) {
     } catch (e) {
       console.error(e);
     }
-  }, [])
+  })
 
   return (
     <div class="FlavorBasedTunesBackground">
@@ -50,7 +50,7 @@ function FlavorBasedTuneCurration(props) {
                     return (
                       <div class="unit">
                         <a href={value[3]}>
-                          <img src={value[2]}></img>
+                          <img src={value[2]} alt=""></img>
                         </a>
                         <p class="title"key={index}>{value[0]} <br/> </p>
                         <p class="artist">{value[1]}</p>

@@ -1,5 +1,3 @@
-const { getCurrentUpdateLanePriority } = require('@psychobolt/react-paperjs/dist/index.dev');
-const SpotifyWebApi = require('spotify-web-api-node')
 // const token = "BQAJrc9skfHoLOoEvy3BLds__TXA8AkVByR8bIQrhUjbJr9XCFUXs0G92Y1icPsHjykbnIV9flCye2I10HW84JYKg-RSudnPn8vxUv0VtFLlK9gCeBoeUhrPP8jh0FeBEXL0mFIAzl5Q9jR4iPR0QRTqXH1XFusaCXy2WdSVWvS14r3d2lR8pV6UbpEtChb7haPeu2BGErZyEEwtFhYhH85KS2K7WEVJk1SKToxPqc-G8uQF530_iRcKXQbBK4AHWg4uqa4VPnOdjexlfQrd"
 const playlistID = "37i9dQZEVXbLRQDuF5jeBp"
 
@@ -80,7 +78,7 @@ export async function mapFoodToRecs(spotifyApi, sweet, salty, crunchy) {
     }
     if (crunchy) {
         loudness = -4;
-        const crunchyText = "Seems you like crunchy foods! "
+        return_text = "Seems you like crunchy foods! "
         + "Believe it or not, louder music helps amplify the 'crunch' you feel. "
         + "We're recommending some tracks based on how much 'loudness' Spotify ranks them. Get ready for some absolute bangers!!"
     }
@@ -107,7 +105,6 @@ export async function getRecommendation(spotifyApi, sweet, salty, crunchy) {
     // TODO: replace constraints here with result from mapFoodToRecs()
     let songRecs = [];
     let foodConstraints = await mapFoodToRecs(spotifyApi, sweet, salty, crunchy);
-    let text = foodConstraints.txt
     let reccs = await spotifyApi.getRecommendations(foodConstraints.constr)
     for (let track of reccs.body.tracks) {
         songRecs.push([track.name, track.artists[0].name, track.album.images[1].url, track.external_urls.spotify]);

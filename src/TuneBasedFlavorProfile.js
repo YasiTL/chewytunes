@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./TuneBasedFlavorProfile.css";
-import { mapStatsToFlavors, getUserTopSongs, getRandom } from "./JSonParse"
+import { mapStatsToFlavors, getUserTopSongs } from "./JSonParse"
 const SpotifyWebApi = require('spotify-web-api-node')
 
 function TuneBasedFlavorProfile(props) {
@@ -26,7 +26,7 @@ function TuneBasedFlavorProfile(props) {
     } catch (e) {
       console.error(e);
     }
-  }, [])
+  })
   
   return (
     <div class="TunesBackground">
@@ -39,7 +39,7 @@ function TuneBasedFlavorProfile(props) {
           return (
             <div class="unit">
               <a href={value[3]}>
-                <img src={value[0]}></img> 
+                <img src={value[0]} alt=""></img> 
               </a>
               <p class="title" style={{color: "#ffd68f"}} key={index}>{value[1]}</p>
               <p class="artist" style={{color: "#ffd68f"}}> {value[2]}</p>

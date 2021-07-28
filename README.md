@@ -1,10 +1,11 @@
 # Synesthesia
 ### Winner of Panera's Freshest hack and Runner up in the Music Catagory at Missouri S&T Pickhacks 2021!
 Play around with our app: https://6101559fdae651fab035ba7b--synesthesiaa.netlify.app/
+
 Watch our demo: https://www.youtube.com/watch?v=wKQu2gTnxVI
 
 ## Inspiration
-We knew that all our senses were all intertwined and worked together to build the human experience, and wanted to help bring new ways for people to enjoy things. The Pixar Movie _ Ratatouille _, plays with the combined experience of flavor and sound with how Remy the rat visualizes and experiments with food. With that in mind and our eyes set on a fresh, but crazy, idea, we did some research on how well established the tie with those senses were. We were excited to find that there was a lot of scientific research on the relationship of hearing and tasting, as well as the API to support our ideas. Our vision was set
+We knew that all our senses were all intertwined and worked together to build the human experience, and wanted to help bring new ways for people to enjoy things. The Pixar Movie *Ratatouille*, plays with the combined experience of flavor and sound with how Remy the rat visualizes and experiments with food. With that in mind and our eyes set on a fresh, but crazy, idea, we did some research on how well established the tie with those senses were. We were excited to find that there was a lot of scientific research on the relationship of hearing and tasting, as well as the API to support our ideas. Our vision was set
 
 ## What it does
 Synesthesia has two main functions.

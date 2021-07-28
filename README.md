@@ -29,11 +29,4 @@ Everyone on the team got their experience with JavaScript and react boosted, alo
 ## What's next for Synesthesia
 Our first goal would be to reprep and reformat some of the code to be cleaner and able to be hosted long-term. The CSS needs to be fixed at some parts, and the Reacts forms are still a bit buggy. Just like other apps such as Reciptify and JudgeMySpotify , we want an app that can last online as a fun tool to visit with friends .
 
-## We also want to add even more features, like more meal recommendations, and being able to give both song and food recommendations to increasingly accurate degrees
-
-## Built With
-express.js
-javascript
-node.js
-react
-spotify
+### We also want to add even more features, like more meal recommendations, and being able to give both song and food recommendations to increasingly accurate degrees

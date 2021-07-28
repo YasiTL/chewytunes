@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Synesthesia
+### Winner of Panera's Freshest hack and Runner up in the Music Catagory at Missouri S&T Pickhacks 2021!
+Play around with our app: https://6101559fdae651fab035ba7b--synesthesiaa.netlify.app/
+Watch our demo: https://www.youtube.com/watch?v=wKQu2gTnxVI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+We knew that all our senses were all intertwined and worked together to build the human experience, and wanted to help bring new ways for people to enjoy things. The Pixar Movie _ Ratatouille _, plays with the combined experience of flavor and sound with how Remy the rat visualizes and experiments with food. With that in mind and our eyes set on a fresh, but crazy, idea, we did some research on how well established the tie with those senses were. We were excited to find that there was a lot of scientific research on the relationship of hearing and tasting, as well as the API to support our ideas. Our vision was set
 
-## Available Scripts
+## What it does
+Synesthesia has two main functions.
 
-In the project directory, you can run:
+First, it can give a user a list of song recommendations to go with a given meal they have with them. This works for anything; breakfast, lunch, dinner, snacks, even dessert! Song recommendations are based off of scientific research to maximize the enjoyment experience of the meal.
 
-### `yarn start`
+Second, users can also receive meal recommendations that would pair well with some of their favorite songs on Spotify. The large variety of meal recommendations are selected from the Panera menu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How we built it
+Starting with learning about how robust and powerful the Spotify API was, we began by planning how we would integrate the API Requests and authentication with a React website. While everyone collaborated, we initially split into two teams, frontend team handling mockups, styling, displays, and connection; and the backend team handling authentication, API requests, and logic.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Challenges we ran into
+Working with React and making authenticated API calls were both their own challenges, but putting those two together on such a tight time restraint was tough. Our team has had experience with React and other API usage, but we found that Spotify had unique authentication methods that were a learning process for us. Making API calls were also difficult as we needed to understand how they were outputted very well in order to run them through a decision making tree. Additionally, the app design used elements of React that none of us have worked with before. We wanted the final product to look polished, even if it took a little longer to implement.
 
-### `yarn test`
+## Accomplishments that we're proud of
+We're proud of how polished our final product looks. The website is sleek. Also, we're proud of how we were able to handle authentication for our product over many different features and a variety of API call usage.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What we learned
+Everyone on the team got their experience with JavaScript and react boosted, along with authentication for a web app. We dealt with issues in CSS and HTML as well. One of our favorite things that we learned was being able to work with API requests (especially Spotify! Their API allows for so many things to be done; from retrieving song names and making playlists to even taking detailed musical analyses of the songs themselves!
 
-### `yarn build`
+## What's next for Synesthesia
+Our first goal would be to reprep and reformat some of the code to be cleaner and able to be hosted long-term. The CSS needs to be fixed at some parts, and the Reacts forms are still a bit buggy. Just like other apps such as Reciptify and JudgeMySpotify , we want an app that can last online as a fun tool to visit with friends .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## We also want to add even more features, like more meal recommendations, and being able to give both song and food recommendations to increasingly accurate degrees
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Built With
+express.js
+javascript
+node.js
+react
+spotify
